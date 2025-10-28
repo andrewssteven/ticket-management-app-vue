@@ -9,10 +9,10 @@
         <div
           class="w-10 h-10 rounded-full bg-linear-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold"
         >
-          T
+          F
         </div>
         <div>
-          <div class="font-semibold">Ticketly</div>
+          <div class="font-semibold">FlowDesk</div>
           <div class="text-xs text-gray-500 dark:text-gray-400">
             Ticket Management
           </div>
