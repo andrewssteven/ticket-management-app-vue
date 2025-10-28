@@ -6,7 +6,9 @@ import {
   deleteTicket,
 } from "../utils/tickets";
 
-export function createTickets() {
+// The app expects a `useTickets` composable (matches React hook name style).
+// Exporting `useTickets` keeps imports consistent across the codebase.
+export function useTickets() {
   const tickets = ref([]);
   const isLoading = ref(true);
 
@@ -44,4 +46,9 @@ export function createTickets() {
   onMounted(load);
 
   return { tickets, isLoading, load, create, update, remove };
+}
+
+// Backwards-compatible factory name used elsewhere in the app
+export function createTickets() {
+  return useTickets();
 }

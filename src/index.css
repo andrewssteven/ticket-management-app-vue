@@ -9,7 +9,6 @@ body,
 body {
   @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
 }
-@import 'tailwindcss';
 
 /* Custom focus styles for accessibility */
 :focus {

@@ -7,7 +7,7 @@
     >
       <router-link to="/" class="flex items-center gap-3">
         <div
-          class="w-10 h-10 rounded-full bg-linear-0-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold"
+          class="w-10 h-10 rounded-full bg-linear-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold"
         >
           T
         </div>

@@ -7,6 +7,12 @@
       </div>
       <div class="flex gap-2">
         <button
+          @click="$emit('edit', ticket)"
+          class="px-3 py-1 bg-indigo-600 text-white rounded"
+        >
+          Edit
+        </button>
+        <button
           @click="$emit('delete', ticket)"
           class="px-3 py-1 bg-red-600 text-white rounded"
         >
